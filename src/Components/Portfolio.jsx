@@ -13,6 +13,8 @@ const Portfolio = () => {
     {
       id: 2,
       src: QuickAndEasy,
+      hrefdemo: 'https://lebgalesly.github.io/E-commerce-Quick-and-Easy-/',
+      hrefcode: 'https://github.com/LebgaLesly/E-commerce-Quick-and-Easy-'
     },
 
     {
@@ -23,6 +25,8 @@ const Portfolio = () => {
     {
       id: 4,
       src: QuickMatch,
+      hrefdemo: 'https://lebgalesly.github.io/Quick_Match/',
+      hrefcode: 'https://github.com/LebgaLesly/Quick_Match'
     },
   ];
   return (
@@ -32,14 +36,14 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-orange-400">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,hrefdemo, hrefcode }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -47,12 +51,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={hrefdemo} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+                <a href={hrefcode} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
