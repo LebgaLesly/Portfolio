@@ -27,16 +27,17 @@ const About = () => {
 
         <p className="text-xl mt-10">
           Moving to the back end, I'm proficient in server-side languages like
-          Python, Java, or Node.js. I have extensive experience working with
-          databases such as PostgreSQL, and MongoDB, and I can design efficient
-          database structures and write optimized queries. I'm familiar with
-          RESTful APIs and know how to integrate them into applications to
-          enable seamless communication between the front end and back
-          end.Additionally, I have expertise in version control systems like
-          Git, and I'm comfortable working in collaborative environments using
-          Agile methodologies. I enjoy staying up to date with the latest trends
-          and technologies in the web development world, as it allows me to
-          continually improve my skills and deliver cutting-edge solutions.
+          Python and Node.js and JavaScript framework like Express js. I have
+          extensive experience working with databases such as PostgreSQL, and
+          MongoDB, and I can design efficient database structures and write
+          optimized queries. I'm familiar with RESTful APIs and know how to
+          integrate them into applications to enable seamless communication
+          between the front end and back end.Additionally, I have expertise in
+          version control systems like Git, and I'm comfortable working in
+          collaborative environments using Agile methodologies. I enjoy staying
+          up to date with the latest trends and technologies in the web
+          development world, as it allows me to continually improve my skills
+          and deliver cutting-edge solutions.
         </p>
 
         <br />
