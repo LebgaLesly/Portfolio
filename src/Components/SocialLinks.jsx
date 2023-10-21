@@ -14,7 +14,7 @@ const SocialLinks = () => {
               LinkedIn <FaLinkedin size={30} className='text-blue-600'/>
             </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://linkedin.comwww.linkedin.com/in/lebga-lesly-tita-660557297',
             style1: 'rounded-tr-md',
             style2: 'text-blue-600'
         },

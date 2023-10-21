@@ -2,30 +2,41 @@ import LesChat from '../Assets/Projects/LesChat.png';
 import QuickAndEasy from '../Assets/Projects/QuickAndEasy.png';
 import QuickMatch from '../Assets/Projects/QuickMatch.png';
 import TechNet from '../Assets/Projects/TechNet.png';
+import portfolio from '../Assets/Projects/portfolio.png'
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: TechNet,
+      hrefdemo: '',
+      hrefcode: 'https://github.com/LebgaLesly/TechNet'
     },
 
     {
       id: 2,
       src: QuickAndEasy,
-      hrefdemo: 'https://lebgalesly.github.io/E-commerce-Quick-and-Easy-/',
+      hrefdemo: 'https://master.d2psjnkuhr5rnm.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/E-commerce-Quick-and-Easy-'
     },
-
     {
       id: 3,
-      src: LesChat,
+      src: portfolio,
+      hrefdemo: 'https://master.dele0753ungcn.amplifyapp.com/',
+      hrefcode: 'https://github.com/LebgaLesly/Portfolio'
     },
 
     {
       id: 4,
+      src: LesChat,
+      hrefdemo: 'https://master.d3dvv3yha7yg7u.amplifyapp.com/',
+      hrefcode: 'https://github.com/LebgaLesly/LesChat'
+    },
+
+    {
+      id: 5,
       src: QuickMatch,
-      hrefdemo: 'https://lebgalesly.github.io/Quick_Match/',
+      hrefdemo: 'https://master.d3nlly4qzbb8s6.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/Quick_Match'
     },
   ];
