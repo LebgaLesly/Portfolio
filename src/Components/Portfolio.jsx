@@ -9,7 +9,6 @@ const Portfolio = () => {
     {
       id: 1,
       src: TechNet,
-      hrefdemo: '',
       hrefcode: 'https://github.com/LebgaLesly/TechNet'
     },
 
