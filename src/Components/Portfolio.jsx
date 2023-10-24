@@ -8,35 +8,34 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: TechNet,
-      hrefcode: 'https://github.com/LebgaLesly/TechNet'
-    },
-
-    {
-      id: 2,
       src: QuickAndEasy,
       hrefdemo: 'https://master.d2psjnkuhr5rnm.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/E-commerce-Quick-and-Easy-'
     },
     {
-      id: 3,
+      id: 2,
       src: portfolio,
       hrefdemo: 'https://master.dele0753ungcn.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/Portfolio'
     },
 
     {
-      id: 4,
+      id: 3,
       src: LesChat,
       hrefdemo: 'https://master.d3dvv3yha7yg7u.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/LesChat'
     },
 
     {
-      id: 5,
+      id: 4,
       src: QuickMatch,
       hrefdemo: 'https://master.d3nlly4qzbb8s6.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/Quick_Match'
+    },
+    {
+      id: 5,
+      src: TechNet,
+      hrefcode: 'https://github.com/LebgaLesly/TechNet'
     },
   ];
   return (
