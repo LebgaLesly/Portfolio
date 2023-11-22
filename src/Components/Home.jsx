@@ -14,9 +14,9 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have some experience in building and designing web
-            applications. I make use of technologies like HTML, CSS,
-            Javascript , React , Redux , Node Js and MongoDB
+            I offer 6+ years experience in building and designing web
+            application. I leverage MERN and PERN technology stacks; HTML, CSS,
+            Javascript, React, Redux, NodeJs and MongoDB
           </p>
           <div>
             <Link
