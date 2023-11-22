@@ -1,4 +1,22 @@
+import {useState} from 'react'
+
+
 const Contact = () => {
+
+  const [name , setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventdefault()
+
+    setName('')
+    setEmail('')
+    setMessage('')
+      
+  }
+
+  
   return (
     <div
       name="contact"
@@ -13,7 +31,7 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <form
+          <form onSubmit={handleSubmit}
             action="https://getform.io/f/7bf312ae-c719-45fd-8d33-23354170fc80"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
@@ -21,24 +39,27 @@ const Contact = () => {
             <input
               type="text"
               name="name"
+              value={name}
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
+              value={email}
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
+              value={message}
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-r from-orange-400 to-orange-600 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
+              Send
             </button>
           </form>
         </div>
