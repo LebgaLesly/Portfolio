@@ -40,6 +40,7 @@ const Contact = () => {
               type="text"
               name="name"
               value={name}
+              onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
@@ -47,6 +48,7 @@ const Contact = () => {
               type="text"
               name="email"
               value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
@@ -54,12 +56,13 @@ const Contact = () => {
               name="message"
               placeholder="Enter your message"
               value={message}
+              onChange={(e) => setMessage(e.target.value)}
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-r from-orange-400 to-orange-600 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Send
+              Send Message
             </button>
           </form>
         </div>
