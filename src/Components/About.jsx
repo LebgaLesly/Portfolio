@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-          I'm a full stack developer offering 6+ years experience in web
+          I'm a Front End developer offering 6+ years experience in web
           development and design. I have a strong command over both front-end
           and back-end technologies. I build complete and scalable applications
           on AWS Cloud Platform. On the front-end side, I specialized in HTML,
