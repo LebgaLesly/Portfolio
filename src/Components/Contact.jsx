@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState,} from 'react'
 
 
 const Contact = () => {
@@ -8,12 +8,13 @@ const Contact = () => {
   const [message, setMessage] = useState('')
 
 
-  useEffect(() => {
+  
 
+  const handleSubmit = () => {
     setName('')
     setEmail('')
     setMessage('')
-  }, [])
+  }
   
 
   
@@ -31,7 +32,7 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <form 
+          <form onSubmit={handleSubmit}
             action="https://getform.io/f/7bf312ae-c719-45fd-8d33-23354170fc80"
             method="POST"
             className=" flex flex-col w-full md:w-1/2"
