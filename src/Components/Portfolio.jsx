@@ -3,6 +3,7 @@ import QuickAndEasy from '../Assets/Projects/QuickAndEasy.png';
 import QuickMatch from '../Assets/Projects/QuickMatch.png';
 import TechNet from '../Assets/Projects/TechNet.png';
 import portfolio from '../Assets/Projects/portfolio.png'
+import Reina from '../Assets/Projects/Reina.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -20,18 +21,27 @@ const Portfolio = () => {
     },
 
     {
+      id: 6,
+      src: Reina,
+      hrefdemo: 'https://lebgalesly.github.io/Mi-Reina/',
+      hrefcode: 'https://github.com/LebgaLesly/Mi-Reina'
+    },
+
+    {
       id: 3,
+      src: QuickMatch,
+      hrefdemo: 'https://master.d3nlly4qzbb8s6.amplifyapp.com/',
+      hrefcode: 'https://github.com/LebgaLesly/Quick_Match'
+    },
+
+    {
+      id: 4,
       src: LesChat,
       hrefdemo: 'https://master.d3dvv3yha7yg7u.amplifyapp.com/',
       hrefcode: 'https://github.com/LebgaLesly/LesChat'
     },
 
-    {
-      id: 4,
-      src: QuickMatch,
-      hrefdemo: 'https://master.d3nlly4qzbb8s6.amplifyapp.com/',
-      hrefcode: 'https://github.com/LebgaLesly/Quick_Match'
-    },
+    
     {
       id: 5,
       src: TechNet,
